@@ -1,0 +1,22 @@
+# MacOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tüm gizli dosyalar ve klasörler
+.*
+!/.gitignore
+
