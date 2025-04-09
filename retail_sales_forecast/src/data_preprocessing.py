@@ -36,3 +36,7 @@ df["Log_UnitPrice"] = np.log1p(df["UnitPrice"]) # log dönüşümü yapıyoruz l
 print("Original vs. Log Unit Price:")
 df[["UnitPrice", "Log_UnitPrice"]].head(10) # ilk 10 satırı gösteriyoruz
 # %%
+df.head()
+df.to_csv("../data/processed_online_retail.csv", index=False) # işlenmiş veriyi kaydediyoruz
+
+# %%
